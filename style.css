@@ -1,0 +1,112 @@
+header img {
+	padding: 20px;
+}
+
+body {
+	background: linear-gradient(to right, #8226A8, #550875);
+	font-family: 'Raleway', sans-serif;
+}
+
+.principal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+	height: 70%;
+	background: #470163;
+	padding: 18px;
+	border-radius: 8px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+fieldset {
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+}
+
+legend {
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+}
+
+input {
+	position: relative;
+	display: block;
+	margin: 35px auto 5px auto;
+	padding: 5px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #FFFFFF;
+	outline: none;
+	width: 90%;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+a {
+	padding: 3px;
+	color: #FFFFFF;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	margin: 5px auto;
+	box-sizing: border-box;
+}
+
+a:hover {
+	transform: scale(1.1);
+}
+
+hr {
+	margin: 20% auto;
+	width: 70%;
+}
+
+.entrar {
+	background: #FFFFFF;
+	width: 50%;
+	border-radius: 8px;
+	margin: 30px auto 10px auto;
+	color: #470163;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.entrar:hover {
+	opacity: 0.7;
+}
+
+.label {
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 2px;
+}
+
+.espaco {
+	height: 145px;
+}
+
+.inputBox {
+	position: relative;
+}
+
+.input:focus ~ .label, .input:valid ~ .label {
+	top: -20px;
+	font-size: 12px;
+}
+
+.label {
+	padding: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+	transition: .5s;
+	margin-left: 9px;
+}
